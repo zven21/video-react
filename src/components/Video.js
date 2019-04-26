@@ -525,6 +525,8 @@ export default class Video extends Component {
         muted={muted}
         preload={preload}
         loop={loop}
+        playsinline
+        webkit-playsinline
         playsInline={playsInline}
         autoPlay={autoPlay}
         poster={poster}
